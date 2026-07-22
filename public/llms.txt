@@ -1,0 +1,29 @@
+# AG LABS — Automação de Processos
+
+> A AG LABS desenha, integra e opera automações sob medida para empresas: conecta ferramentas, elimina trabalho manual e dá visibilidade total dos fluxos. Resultados em semanas, não meses.
+
+Esta página (https://wf.aglabs.ia.br) é a landing de automações da AG LABS.
+Site institucional da empresa: https://aglabs.ia.br
+Atuação: Brasil. Idioma: português do Brasil (pt-BR).
+Slogan: "Automações que escalam".
+
+## Soluções
+- YouTube Automático — geração e publicação de conteúdo em vídeo no automático.
+- Atendimento Inteligente — atendente de IA no WhatsApp 24/7.
+- Qualificação de Leads — captura e qualificação automática (vendas & CRM).
+- Comentários Automáticos — engajamento social automatizado.
+- Redes Sociais no Automático — marketing de conteúdo em fluxo contínuo.
+
+## Tecnologia
+Automações e integrações com n8n, Make e IA aplicada, conectando as ferramentas
+que a empresa já usa.
+
+## Contato
+- WhatsApp: https://wa.me/5564993259857
+- Site institucional: https://aglabs.ia.br
+
+## Redes sociais oficiais
+- Instagram: https://www.instagram.com/ag_labs/
+- LinkedIn: https://www.linkedin.com/company/ag-labs
+- Facebook: https://www.facebook.com/profile.php?id=61573483665476
+- X (Twitter): https://x.com/aglabsrv

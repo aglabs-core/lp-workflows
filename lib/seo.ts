@@ -12,27 +12,38 @@ const ORG_ID = `${ORG_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 
 /** A AG LABS como prestadora de serviço (entidade central do grafo). */
+/**
+ * Bloco CANÔNICO da entidade AG LABS — deve ser idêntico em todas as
+ * propriedades que usam o @id https://aglabs.ia.br/#organization
+ * (fonte de verdade: index.html do site institucional).
+ * A "cara" desta landing (automação) vive nos nós WebSite/Service/WebPage.
+ */
 export const organizationSchema = {
-  "@type": ["Organization", "ProfessionalService"],
+  "@type": "Organization",
   "@id": ORG_ID,
-  name: SITE.name,
-  legalName: SITE.legalName,
-  alternateName: "AG LABS Automação",
+  name: "AG LABS Intelligence",
+  alternateName: "AG LABS",
   url: ORG_URL,
   logo: {
     "@type": "ImageObject",
-    url: SITE.logo,
+    url: `${ORG_URL}/android-chrome-512x512.png`,
     width: 512,
     height: 512,
   },
-  image: SITE.logo,
-  description: SITE.description,
-  slogan: "Automações que escalam",
+  image: `${ORG_URL}/android-chrome-512x512.png`,
+  description:
+    "Agência brasileira de inteligência artificial aplicada a negócios: agentes autônomos, automação de processos, integrações de dados e websites de alto desempenho.",
+  slogan: "IA aplicada — agentes, automações e sistemas para negócios em escala",
   telephone: SITE.telephone,
-  priceRange: "$$",
   areaServed: {
     "@type": "Country",
     name: "Brasil",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Rio Verde",
+    addressRegion: "GO",
+    addressCountry: "BR",
   },
   knowsLanguage: ["pt-BR"],
   sameAs: [SITE.social.linkedin, SITE.social.instagram, SITE.social.facebook, SITE.social.x],
@@ -42,7 +53,7 @@ export const organizationSchema = {
     telephone: SITE.telephone,
     url: SITE.whatsapp,
     areaServed: "BR",
-    availableLanguage: ["Portuguese"],
+    availableLanguage: ["pt-BR"],
   },
 };
 
