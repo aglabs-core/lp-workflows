@@ -5,13 +5,13 @@ import { useRef } from "react";
 // Slugs verificados — simpleicons.org (cdn.simpleicons.org/<slug>/ffffff)
 const row1 = [
   "n8n", "huggingface", "anthropic", "supabase", "telegram", "instagram",
-  "whatsapp", "github", "rocketchat", "notion", "stripe", "zapier",
+  "whatsapp", "github", "mattermost", "notion", "stripe", "zapier",
   "discord", "figma", "shopify", "mongodb", "zoom", "linear",
-  "mailchimp", "airtable", "hubspot", "typeform", "sendgrid", "vercel", "firebase",
+  "mailchimp", "airtable", "hubspot", "typeform", "brevo", "vercel", "firebase",
 ];
 
 const row2 = [
-  "zoho", "postgresql", "redis", "skype", "jira", "asana",
+  "zoho", "postgresql", "redis", "googlemeet", "jira", "asana",
   "googledrive", "webflow", "clickup", "miro", "zendesk", "intercom",
   "confluence", "dropbox", "basecamp", "netlify", "cloudflare", "digitalocean",
   "woocommerce", "wordpress", "loom", "mixpanel", "mysql", "trello", "googleanalytics",
