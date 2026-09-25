@@ -11,7 +11,7 @@ const browser = await puppeteer.launch({
   executablePath: CHROME,
   headless: "new",
   args: ["--no-sandbox", "--hide-scrollbars", "--force-color-profile=srgb"],
-  defaultViewport: { width: W, height: H, deviceScaleFactor: 2 },
+  defaultViewport: { width: W, height: H, deviceScaleFactor: 1 },
 });
 
 const page = await browser.newPage();
@@ -20,9 +20,12 @@ await page.goto(URL, { waitUntil: "networkidle0", timeout: 60000 });
 await new Promise((r) => setTimeout(r, 1800));
 
 await page.screenshot({
-  path: "public/og-cover.png",
+  // JPEG em 1x: acima de ~300 KB o WhatsApp não mostra a prévia do link.
+  path: "public/og-cover.jpg",
+  type: "jpeg",
+  quality: 85,
   clip: { x: 0, y: 0, width: W, height: H },
 });
 
 await browser.close();
-console.log("og-cover.png gerado (1200x630 @2x)");
+console.log("og-cover.jpg gerado (1200x630)");
