@@ -21,9 +21,8 @@ export const SITE = {
   title: "AG LABS — Automações inteligentes que escalam seu negócio",
   description:
     "A AG LABS desenha, integra e opera automações sob medida: conecte ferramentas, elimine trabalho manual e ganhe visibilidade total dos seus fluxos. Resultados em semanas, não meses.",
-  // Card social ideal é 1200x630. Quando existir, adicione /public/og-cover.png
-  // e troque `ogImageFallback` por `ogImage` em app/layout.tsx.
-  ogImage: "/og-cover.png",
+  /** Card social 1200x630 em JPEG, gerado por og-shot.mjs. */
+  ogImage: "/og-cover.jpg",
   /** Em uso hoje (Open Graph / Twitter) — quadrado 512x512, já existe em /public. */
   ogImageFallback: "/icon-512.png",
   logo: `${SITE_URL}/icon-512.png`,
