@@ -39,7 +39,7 @@ const columns: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Sobre", href: "https://aglabs.ia.br/" },
       { label: "Loja Labs", href: "https://lojalabs.com.br/" },
       { label: "Quero meu site", href: "https://lp.aglabs.ia.br" },
-      { label: "Agentes de IA", href: "https://rag.aglabs.api.br/" },
+      { label: "Agentes de IA", href: "https://rag.aglabs.ia.br/" },
     ],
   },
   {
