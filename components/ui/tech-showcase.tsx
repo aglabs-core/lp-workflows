@@ -117,6 +117,8 @@ function LogoCard({
       onMouseLeave={() => onHover(null)}
     >
       <img
+        loading="lazy"
+        decoding="async"
         src={item.image}
         alt={item.name}
         className="h-full w-full object-cover transition-[filter] duration-500"

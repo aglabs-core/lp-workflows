@@ -82,6 +82,8 @@ function NodeIcon({ slug, iconColor, letter }: { slug: string; iconColor: string
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
+      loading="lazy"
+      decoding="async"
       src={`https://cdn.simpleicons.org/${slug}/${iconColor}`}
       alt={slug}
       style={{ width: "54%", height: "54%", objectFit: "contain" }}

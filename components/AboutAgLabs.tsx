@@ -5,8 +5,7 @@ import { Eyebrow, GlowOrb } from "./ui/Primitives";
 import { Reveal } from "./ui/Reveal";
 import { VerticalCutReveal } from "./ui/VerticalCutReveal";
 
-const FOUNDER_IMG =
-  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/aglabs/Equipe_corporativa_em_202604122253.jpeg";
+const FOUNDER_IMG = "/img/equipe.webp";
 
 function IconInstagram() {
   return (

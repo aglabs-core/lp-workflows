@@ -159,6 +159,8 @@ export function WorkflowShowcase() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
+                loading="lazy"
+                decoding="async"
                 src="https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/aglabs/workflow_itops_5d5a4bf299.svg"
                 alt="Diagrama de automação de fluxo"
                 className="h-auto w-full"

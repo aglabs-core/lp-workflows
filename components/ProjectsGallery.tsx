@@ -95,6 +95,8 @@ export function ProjectsGallery() {
               >
                 <div className="group relative h-full min-h-[24rem] max-w-full overflow-hidden rounded-sm sm:min-h-[27rem] md:aspect-[5/4] lg:aspect-[16/9]">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={item.image}
                     alt={item.title}
                     className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"

@@ -37,6 +37,8 @@ function Logo({ slug }: { slug: string }) {
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
+        loading="lazy"
+        decoding="async"
         src={`https://cdn.simpleicons.org/${slug}/ffffff`}
         alt={slug}
         width={26}
