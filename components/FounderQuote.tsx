@@ -30,6 +30,8 @@ export function FounderQuote() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
+              loading="lazy"
+              decoding="async"
               src="https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/aglabs/founder.jpeg"
               alt="Antonio Garcia — Fundador AG LABS"
               className="h-full w-full object-cover object-top"

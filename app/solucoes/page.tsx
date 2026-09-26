@@ -101,6 +101,8 @@ export default function SolucoesPage() {
               <Reveal className={reversed ? "lg:order-2" : ""}>
                 <div className="relative aspect-[16/11] overflow-hidden rounded-md border border-line">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={item.image}
                     alt={item.title}
                     className="absolute inset-0 h-full w-full object-cover object-center"

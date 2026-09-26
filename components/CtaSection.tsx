@@ -1,7 +1,6 @@
 import { Reveal } from "./ui/Reveal";
 
-const CTA_BG =
-  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/aglabs/cta.jpeg";
+const CTA_BG = "/img/cta.webp";
 
 export function CtaSection() {
   return (
