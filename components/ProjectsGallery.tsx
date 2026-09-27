@@ -53,7 +53,7 @@ export function ProjectsGallery() {
                 <span className="text-gradient-green">entregamos</span>
               </SectionHeading>
               <p className="max-w-lg text-[14px] leading-relaxed text-mist">
-                Automações rodando em produção, em empresas reais. Cada projeto começa com um diagnóstico e termina com resultado mensurável.
+                Exemplos de soluções que mostram como transformamos processos em fluxos operacionais. Cada contratação começa com diagnóstico e escopo aprovado.
               </p>
             </div>
 

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Logo } from "./ui/Logo";
+import { automationWhatsAppUrl } from "@/lib/contact";
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -47,7 +48,7 @@ const columns: { title: string; links: { label: string; href: string }[] }[] = [
     links: [
       { label: "Blog", href: "https://aglabs.ia.br/blog" },
       { label: "Guia de automação", href: "/solucoes" },
-      { label: "Contato", href: "https://wa.me/5564993259857" },
+      { label: "Contato", href: automationWhatsAppUrl },
       { label: "FAQ", href: "/solucoes#faq" },
     ],
   },

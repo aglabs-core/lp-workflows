@@ -109,23 +109,23 @@ export function AboutAgLabs() {
           <Reveal className="flex flex-wrap lg:justify-start justify-between items-center py-3 text-sm">
             <div className="flex gap-4">
               <div className="flex items-center gap-2 mb-2 sm:text-base text-xs">
-                <span className="font-bold" style={{ color: "#34E27E" }}>3+</span>
-                <span className="text-mist">anos de experiência</span>
+                <span className="font-bold" style={{ color: "#34E27E" }}>01</span>
+                <span className="text-mist">diagnóstico do processo</span>
                 <span className="text-faint">|</span>
               </div>
               <div className="flex items-center gap-2 mb-2 sm:text-base text-xs">
-                <span className="font-bold" style={{ color: "#34E27E" }}>100+</span>
-                <span className="text-mist">automações entregues</span>
+                <span className="font-bold" style={{ color: "#34E27E" }}>02</span>
+                <span className="text-mist">integração e testes</span>
               </div>
             </div>
             <div className="lg:absolute right-0 bottom-16 flex lg:flex-col flex-row-reverse lg:gap-0 gap-4">
               <div className="flex lg:text-3xl sm:text-2xl text-xl items-center gap-2 mb-2">
-                <span className="font-semibold" style={{ color: "#34E27E" }}>200+</span>
-                <span className="text-cloud uppercase text-sm">ferramentas</span>
+                <span className="font-semibold" style={{ color: "#34E27E" }}>03</span>
+                <span className="text-cloud uppercase text-sm">operação</span>
               </div>
               <div className="flex items-center gap-2 mb-2 text-xs">
-                <span className="font-bold" style={{ color: "#34E27E" }}>30%</span>
-                <span className="text-mist">redução de tempo operacional</span>
+                <span className="font-bold" style={{ color: "#34E27E" }}>04</span>
+                <span className="text-mist">evolução com suporte</span>
                 <span className="text-faint lg:hidden block">|</span>
               </div>
             </div>
