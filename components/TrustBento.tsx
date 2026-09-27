@@ -114,10 +114,10 @@ export function TrustBento() {
                   </span>
 
                   <h3 className="mt-6 text-[22px] font-semibold leading-snug text-cloud">
-                    Integra em minutos, não em meses
+                    Integrações desenhadas para o seu processo
                   </h3>
                   <p className="mt-2.5 text-[13px] leading-relaxed text-mist">
-                    Mais de 200 ferramentas prontas para conectar — sem código, sem equipe de TI, sem retrabalho.
+                    Avaliamos as ferramentas, permissões e limites antes de definir o escopo da integração.
                   </p>
                 </div>
 
@@ -137,7 +137,7 @@ export function TrustBento() {
                         style={{ background: "rgba(10,12,10,0.95)", backdropFilter: "blur(8px)" }}
                       >
                         <span style={{ color: "#34E27E" }}>⚡</span>
-                        <span className="text-cloud font-medium">Nova automação ativa</span>
+                        <span className="text-cloud font-medium">Exemplo de integração</span>
                         <span className="text-mist">HubSpot → Slack</span>
                       </div>
                     </div>
@@ -176,7 +176,7 @@ export function TrustBento() {
                   <div>
                     <div className="mb-1.5 flex items-center gap-2">
                       <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#34E27E" }} />
-                      <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.25)" }}>Hoje, 09:14</span>
+                      <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.25)" }}>Exemplo de atendimento</span>
                     </div>
                     <div
                       className="w-4/5 rounded-sm border border-line p-3 text-[12px] leading-relaxed text-mist"
@@ -192,7 +192,7 @@ export function TrustBento() {
                     >
                       Já identifiquei — mudança no webhook do HubSpot. Corrigido e testado. ✓
                     </div>
-                    <span className="mt-1.5 text-[11px]" style={{ color: "rgba(255,255,255,0.25)" }}>Agora</span>
+                    <span className="mt-1.5 text-[11px]" style={{ color: "rgba(255,255,255,0.25)" }}>Resposta ilustrativa</span>
                   </div>
                 </div>
               </div>
@@ -203,10 +203,10 @@ export function TrustBento() {
               <p
                 className="text-5xl font-light tracking-tight text-cloud lg:text-7xl"
               >
-                99<span style={{ color: "#34E27E" }}>,9%</span> de uptime
+                Monitoramento <span style={{ color: "#34E27E" }}>e suporte</span>
               </p>
               <p className="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-mist">
-                Infraestrutura monitorada 24/7. Suas automações rodam mesmo quando você dorme.
+                Acompanhamos as execuções e tratamos falhas conforme o escopo de suporte contratado.
               </p>
             </div>
 
@@ -215,11 +215,11 @@ export function TrustBento() {
               <div className="p-8 sm:p-10 lg:p-12">
                 <span className="flex items-center gap-2" style={{ color: "rgba(52,226,126,0.7)" }}>
                   <IconEye className="h-4 w-4" />
-                  <span className="text-sm text-mist">Monitoramento em tempo real</span>
+                  <span className="text-sm text-mist">Acompanhamento da operação</span>
                 </span>
                 <p className="mt-5 max-w-md text-[22px] font-semibold leading-snug text-cloud">
-                  Visibilidade total de cada automação.{" "}
-                  <span className="text-mist">Cada erro notificado na hora.</span>
+                  Visibilidade dos fluxos contratados.{" "}
+                  <span className="text-mist">Alertas e recuperação definidos no projeto.</span>
                 </p>
               </div>
               <div className="px-4 pb-2">

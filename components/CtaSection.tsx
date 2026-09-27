@@ -1,4 +1,5 @@
 import { Reveal } from "./ui/Reveal";
+import { automationWhatsAppUrl } from "@/lib/contact";
 
 const CTA_BG =
   "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/aglabs/cta.jpeg";
@@ -51,15 +52,15 @@ export function CtaSection() {
             com automação
           </h2>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-mist sm:mt-5 sm:text-base">
-            Agende um diagnóstico gratuito. Em 30 minutos você sai com o mapa
-            das automações que mais geram retorno no seu negócio.
+            Conte qual processo consome tempo da sua equipe. Vamos avaliar o caso
+            e indicar o próximo passo para automatizá-lo.
           </p>
         </Reveal>
 
         {/* CTA WhatsApp */}
         <Reveal delay={160}>
           <a
-            href="https://wa.me/5564993259857"
+            href={automationWhatsAppUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow mt-6 inline-flex h-12 w-full max-w-sm items-center justify-center rounded-sm px-6 text-[14px] font-semibold sm:mt-8 sm:w-auto"
@@ -67,7 +68,7 @@ export function CtaSection() {
             Falar no WhatsApp
           </a>
           <p className="mt-3 text-[12px] text-faint">
-            Sem compromisso · Resposta em até 1 dia útil
+            Fale com a AG LABS pelo canal oficial
           </p>
         </Reveal>
       </div>

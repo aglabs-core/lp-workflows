@@ -34,7 +34,7 @@ export function DashboardMockup() {
           </span>
         </div>
         <div className="flex items-center gap-2">
-          <span className="hidden rounded-md border border-line px-2 py-0.5 text-[10px] text-faint sm:inline">Ao vivo</span>
+          <span className="hidden rounded-md border border-line px-2 py-0.5 text-[10px] text-faint sm:inline">Exemplo visual</span>
           <span className="h-2 w-2 rounded-full bg-emerald shadow-[0_0_8px_2px_rgba(52,226,126,0.6)]" />
         </div>
       </div>
@@ -72,21 +72,21 @@ export function DashboardMockup() {
           <div className="relative grid grid-cols-2 gap-px border-t border-line bg-line">
             <div className="bg-ink-900/90 p-2 sm:p-4">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] sm:text-[11px] text-mist">Throughput</span>
-                <span className="text-[10px] sm:text-[11px] text-emerald">+18%</span>
+                <span className="text-[10px] sm:text-[11px] text-mist">Processo</span>
+                <span className="text-[10px] sm:text-[11px] text-emerald">mapeado</span>
               </div>
               <div className="mt-1.5 flex items-end justify-between">
-                <span className="text-lg sm:text-2xl font-light text-cloud">52</span>
+                <span className="text-lg sm:text-2xl font-light text-cloud">Fluxos</span>
                 <BarChart bars={[40, 65, 50, 80, 60, 90, 70]} tone="green" />
               </div>
             </div>
             <div className="bg-ink-900/90 p-2 sm:p-4">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] sm:text-[11px] text-mist">Execuções</span>
-                <span className="text-[10px] sm:text-[11px] text-sky-400">1.248</span>
+                <span className="text-[10px] sm:text-[11px] text-sky-400">visíveis</span>
               </div>
               <div className="mt-1.5 flex items-end justify-between">
-                <span className="text-lg sm:text-2xl font-light text-cloud">99,9%</span>
+                <span className="text-lg sm:text-2xl font-light text-cloud">Eventos</span>
                 <BarChart bars={[55, 45, 70, 60, 85, 75, 95]} tone="blue" />
               </div>
             </div>
