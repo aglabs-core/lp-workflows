@@ -52,3 +52,6 @@ tailwind.config.ts  # paleta (ink/emerald), animações, sombras/glow
 - **Logos de prova social:** array `trustLogos` em `components/Hero.tsx`.
 - **Fluxo do diagrama:** arrays `nodes` / `edges` em `components/ui/WorkflowDiagram.tsx`.
 - **Formulário do CTA:** `components/CtaSection.tsx` (`<form action="#">` — conectar ao seu endpoint/CRM).
+
+
+O workflow `quality.yml` executa a instalação do lockfile, a verificação de tipos e o build nos PRs e na branch `main`. O check também confere o HTML gerado.
